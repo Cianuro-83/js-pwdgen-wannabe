@@ -33,3 +33,10 @@ console.log("Chiedo all'utente il suo numero preferito");
 number = prompt("Inserisci il tuo numero preferito");
 console.log("imposto innerHTML di my-color");
 myNumber.innerHTML = number;
+
+console.log("prendo elemento html con id psw1 e lo assegno alla sua variabile");
+let psw1 = document.getElementById("psw1");
+console.log("genero la psw in base ai dati ricevuti");
+password1 = name + lastName;
+console.log("imposto innerHTML di psw1");
+psw1 = password1;

@@ -15,3 +15,21 @@ console.log("Chiedo il Cognome all'utente");
 surname = prompt("Inserisci il tuo Cognome");
 console.log("imposto innerHTML di Last Name");
 lastName.innerHTML = surname;
+
+console.log(
+  "prendo elemento html con id my-color e lo assegno alla sua variabile"
+);
+let myColor = document.getElementById("my-color");
+console.log("Chiedo all'utente il suo colore preferito");
+color = prompt("Inserisci il tuo colore preferito");
+console.log("imposto innerHTML di my-color");
+myColor.innerHTML = color;
+
+console.log(
+  "prendo elemento html con id my-number e lo assegno alla sua variabile"
+);
+let myNumber = document.getElementById("my-number");
+console.log("Chiedo all'utente il suo numero preferito");
+number = prompt("Inserisci il tuo numero preferito");
+console.log("imposto innerHTML di my-color");
+myNumber.innerHTML = number;

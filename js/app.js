@@ -37,6 +37,6 @@ myNumber.innerHTML = number;
 console.log("prendo elemento html con id psw1 e lo assegno alla sua variabile");
 let psw1 = document.getElementById("psw1");
 console.log("genero la psw in base ai dati ricevuti");
-password1 = name + lastName;
+password1 = firstName + surname + color + number;
 console.log("imposto innerHTML di psw1");
-password1.innerHTML = psw1;
+psw1.innerHTML = password1;

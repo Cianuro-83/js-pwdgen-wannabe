@@ -7,19 +7,20 @@ body {
   background-color: black;
   color: white;
   height: 100vh;
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 a {
   font-style: none;
   color: currentColor;
   text-decoration: none;
 }
-.container {
+/* .container {
   border: 2px dotted white;
-}
+} */
 
 h1 span {
-  padding: 0 1rem;
+  padding: 0 0.7rem;
 }
 
 .fa-lock {
@@ -43,4 +44,8 @@ h1 {
 .scb-button a {
   font-weight: 900;
   font-size: 15px;
+}
+
+.scb {
+  padding-top: 150px;
 }

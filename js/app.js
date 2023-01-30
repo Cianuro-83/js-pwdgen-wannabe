@@ -39,4 +39,4 @@ let psw1 = document.getElementById("psw1");
 console.log("genero la psw in base ai dati ricevuti");
 password1 = name + lastName;
 console.log("imposto innerHTML di psw1");
-psw1 = password1;
+password1.innerHTML = psw1;
